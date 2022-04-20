@@ -8,5 +8,6 @@ namespace HotelBookingSystem.UserRegistration
 {
     internal interface IUserLogin
     {
+
     }
 }

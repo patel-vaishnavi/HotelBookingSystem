@@ -8,5 +8,6 @@ namespace HotelBookingSystem.HotelDAL
 {
     internal class HotelDao
     {
+
     }
 }

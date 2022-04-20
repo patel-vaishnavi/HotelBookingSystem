@@ -6,7 +6,11 @@ using System.Threading.Tasks;
 
 namespace HotelBookingSystem.HotelDAL
 {
-    internal class Amount
+    public class Amount
     {
+        public string HotelName { get; set; }
+        public int TotalAmount { get; set; }
+        public DateOnly StartDate { get; set; }
+        public DateOnly EndDate { get; set; }
     }
 }
