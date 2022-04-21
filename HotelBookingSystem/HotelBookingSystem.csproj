@@ -8,11 +8,17 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <None Remove="bg.jpg" />
+    <None Remove="download.jpg" />
     <None Remove="Hotel.jpg" />
+    <None Remove="images.jpg" />
   </ItemGroup>
 
   <ItemGroup>
+    <Resource Include="bg.jpg" />
+    <Resource Include="download.jpg" />
     <Resource Include="Hotel.jpg" />
+    <Resource Include="images.jpg" />
   </ItemGroup>
 
 </Project>

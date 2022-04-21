@@ -9,23 +9,27 @@
 		mc:Ignorable="d"
 		Title="SignUpWindow" Height="450" Width="800">
     <Grid Margin="16,9,0,1">
-        <TextBlock x:Name="TextBlockRegistration1" HorizontalAlignment="Center" Margin="0,40,0,0" TextWrapping="Wrap" Text="Registration:" VerticalAlignment="Top" FontSize="22" FontWeight="Normal" FontFamily="Arial"/>
-        <TextBlock x:Name="TextBlock1" HorizontalAlignment="Left" Margin="165,102,0,0" TextWrapping="Wrap" Text="First Name :" VerticalAlignment="Top" FontSize="22" FontWeight="Normal" Foreground="#FF131211" Background="#FFFEF9F9"/>
-        <TextBlock x:Name="TextBlock_Copy4" HorizontalAlignment="Left" Margin="165,138,0,0" TextWrapping="Wrap" Text="Last Name :" VerticalAlignment="Top" FontSize="22" FontWeight="Normal" Background="#FFF9F7F7"/>
-        <TextBlock x:Name="TextBlock_Copy5" HorizontalAlignment="Left" Margin="165,175,0,0" TextWrapping="Wrap" Text="Email ID :" VerticalAlignment="Top" FontSize="22" FontWeight="Normal" Background="#FFFEFBFB"/>
-        <TextBlock x:Name="TextBlock_Copy6" HorizontalAlignment="Left" Margin="165,212,0,0" TextWrapping="Wrap" Text="Password :" VerticalAlignment="Top" FontSize="22" RenderTransformOrigin="0.672,0.773" FontWeight="Normal" Background="#FFFEFCFC"/>
-        <TextBlock x:Name="TextBlock_Copy7" HorizontalAlignment="Left" Margin="165,250,0,0" TextWrapping="Wrap" Text="Confirm Password:" VerticalAlignment="Top" FontSize="22" RenderTransformOrigin="0.504,1.1" FontWeight="Normal" Background="#FFFEF9F9"/>
-        <TextBlock x:Name="TextBlock_Copy" HorizontalAlignment="Left" Margin="165,288,0,0" TextWrapping="Wrap" Text="Address:" VerticalAlignment="Top" FontSize="22" RenderTransformOrigin="0.672,0.773" FontWeight="Normal" Background="#FFFBF7F7"/>
-        <TextBox x:Name="FirstName" HorizontalAlignment="Left" Margin="362,103,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="300" FontSize="18"/>
-        <TextBox x:Name="LastNameBox" HorizontalAlignment="Left" Margin="362,139,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="300" FontSize="18"/>
-        <TextBox x:Name="EmailIdBox" HorizontalAlignment="Left" Margin="361,178,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="300" FontSize="18"/>
-        <TextBox x:Name="Password_Box" HorizontalAlignment="Left" Margin="362,215,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="300" FontSize="18"/>
-        <TextBox x:Name="Confirm_passwordBox" HorizontalAlignment="Left" Margin="362,253,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="300" RenderTransformOrigin="0.506,1.516" FontSize="18"/>
-        <TextBox x:Name="AddressBox" HorizontalAlignment="Left" Margin="362,291,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="300" RenderTransformOrigin="0.506,1.516" FontSize="18"/>
-        <Button x:Name="SignUP" Content="SignUP" HorizontalAlignment="Left" Margin="364,337,0,0" VerticalAlignment="Top" FontSize="20" Width="95" Click="SignUP_Click" BorderBrush="#FF349FE6" Background="#FF278ECC"/>
-        <Button x:Name="Reset" Content="Reset" HorizontalAlignment="Left" Margin="464,337,0,0" VerticalAlignment="Top" FontSize="20" Width="94" Background="#FF278ECC"/>
-        <Button x:Name="Cancel" Content="Cancel" HorizontalAlignment="Left" Margin="563,337,0,0" VerticalAlignment="Top" FontSize="20" Width="91" Background="#FF278ECC" />
-        <Grid/>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="11*"/>
+            <RowDefinition Height="95*"/>
+        </Grid.RowDefinitions>
+        <TextBlock x:Name="TextBlockRegistration1" HorizontalAlignment="Center" Margin="0,40,0,0" TextWrapping="Wrap" Text="Registration:" VerticalAlignment="Top" FontSize="22" FontWeight="Normal" FontFamily="Arial" Grid.RowSpan="2"/>
+        <TextBlock x:Name="TextBlock1" HorizontalAlignment="Left" Margin="165,58,0,0" TextWrapping="Wrap" Text="First Name :" VerticalAlignment="Top" FontSize="22" FontWeight="Normal" Foreground="#FF131211" Background="#FFFEF9F9" Grid.Row="1"/>
+        <TextBlock x:Name="TextBlock_Copy4" HorizontalAlignment="Left" Margin="165,94,0,0" TextWrapping="Wrap" Text="Last Name :" VerticalAlignment="Top" FontSize="22" FontWeight="Normal" Background="#FFF9F7F7" Grid.Row="1"/>
+        <TextBlock x:Name="TextBlock_Copy5" HorizontalAlignment="Left" Margin="165,131,0,0" TextWrapping="Wrap" Text="Email ID :" VerticalAlignment="Top" FontSize="22" FontWeight="Normal" Background="#FFFEFBFB" Grid.Row="1"/>
+        <TextBlock x:Name="TextBlock_Copy6" HorizontalAlignment="Left" Margin="165,168,0,0" TextWrapping="Wrap" Text="Password :" VerticalAlignment="Top" FontSize="22" RenderTransformOrigin="0.672,0.773" FontWeight="Normal" Background="#FFFEFCFC" Grid.Row="1"/>
+        <TextBlock x:Name="TextBlock_Copy7" HorizontalAlignment="Left" Margin="165,206,0,0" TextWrapping="Wrap" Text="Confirm Password:" VerticalAlignment="Top" FontSize="22" RenderTransformOrigin="0.504,1.1" FontWeight="Normal" Background="#FFFEF9F9" Grid.Row="1"/>
+        <TextBlock x:Name="TextBlock_Copy" HorizontalAlignment="Left" Margin="165,244,0,0" TextWrapping="Wrap" Text="Address:" VerticalAlignment="Top" FontSize="22" RenderTransformOrigin="0.672,0.773" FontWeight="Normal" Background="#FFFBF7F7" Grid.Row="1"/>
+        <TextBox x:Name="FirstName" HorizontalAlignment="Left" Margin="362,59,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="300" FontSize="18" Grid.Row="1"/>
+        <TextBox x:Name="LastNameBox" HorizontalAlignment="Left" Margin="362,95,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="300" FontSize="18" Grid.Row="1"/>
+        <TextBox x:Name="EmailIdBox" HorizontalAlignment="Left" Margin="361,134,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="300" FontSize="18" Grid.Row="1"/>
+        <TextBox x:Name="Password_Box" HorizontalAlignment="Left" Margin="362,171,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="300" FontSize="18" Grid.Row="1"/>
+        <TextBox x:Name="Confirm_passwordBox" HorizontalAlignment="Left" Margin="362,209,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="300" RenderTransformOrigin="0.506,1.516" FontSize="18" Grid.Row="1"/>
+        <TextBox x:Name="AddressBox" HorizontalAlignment="Left" Margin="362,247,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="300" RenderTransformOrigin="0.506,1.516" FontSize="18" Grid.Row="1"/>
+        <Button x:Name="SignUP" Content="SignUP" HorizontalAlignment="Left" Margin="364,293,0,0" VerticalAlignment="Top" FontSize="20" Width="95" Click="SignUP_Click" BorderBrush="#FF349FE6" Background="#FF278ECC" Grid.Row="1"/>
+        <Button x:Name="Reset" Content="Reset" HorizontalAlignment="Left" Margin="464,293,0,0" VerticalAlignment="Top" FontSize="20" Width="94" Background="#FF278ECC" Grid.Row="1"/>
+        <Button x:Name="Cancel" Content="Cancel" HorizontalAlignment="Left" Margin="563,293,0,0" VerticalAlignment="Top" FontSize="20" Width="91" Background="#FF278ECC" Grid.Row="1" />
+
 
 
 
