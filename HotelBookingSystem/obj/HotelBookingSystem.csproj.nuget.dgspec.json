@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Shreya Paliwal\\source\\repos\\HotelBookingSystem\\HotelBookingSystem\\HotelBookingSystem.csproj": {}
+    "C:\\Users\\Vaishnavi Patel\\Desktop\\clone\\HotelBookingSystem\\HotelBookingSystem\\HotelBookingSystem.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Shreya Paliwal\\source\\repos\\HotelBookingSystem\\HotelBookingSystem\\HotelBookingSystem.csproj": {
+    "C:\\Users\\Vaishnavi Patel\\Desktop\\clone\\HotelBookingSystem\\HotelBookingSystem\\HotelBookingSystem.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Shreya Paliwal\\source\\repos\\HotelBookingSystem\\HotelBookingSystem\\HotelBookingSystem.csproj",
+        "projectUniqueName": "C:\\Users\\Vaishnavi Patel\\Desktop\\clone\\HotelBookingSystem\\HotelBookingSystem\\HotelBookingSystem.csproj",
         "projectName": "HotelBookingSystem",
-        "projectPath": "C:\\Users\\Shreya Paliwal\\source\\repos\\HotelBookingSystem\\HotelBookingSystem\\HotelBookingSystem.csproj",
-        "packagesPath": "C:\\Users\\Shreya Paliwal\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Shreya Paliwal\\source\\repos\\HotelBookingSystem\\HotelBookingSystem\\obj\\",
+        "projectPath": "C:\\Users\\Vaishnavi Patel\\Desktop\\clone\\HotelBookingSystem\\HotelBookingSystem\\HotelBookingSystem.csproj",
+        "packagesPath": "C:\\Users\\Vaishnavi Patel\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Vaishnavi Patel\\Desktop\\clone\\HotelBookingSystem\\HotelBookingSystem\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\Shreya Paliwal\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Vaishnavi Patel\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [

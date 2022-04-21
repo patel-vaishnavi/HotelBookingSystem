@@ -1,0 +1,27 @@
+﻿<Window x:Class="HotelBookingSystem.LoginWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:HotelBookingSystem"
+        mc:Ignorable="d"
+        Title="Login" Height="500" Width="900">
+
+
+
+    <Grid x:Name="loginwindow" Opacity="0.995" Background="{DynamicResource {x:Static SystemColors.ActiveCaptionBrushKey}}">
+
+
+        <TextBlock x:Name="login"  HorizontalAlignment="Left" Margin="211,192,0,0" TextWrapping="NoWrap" VerticalAlignment="Top" Height="50" Width="100" FontSize="24" FontFamily="Segoe UI Black" Foreground="#FFF4EDED"><Run Text="LOGIN"/><Run Language="en-in" Text=" :"/></TextBlock>
+        <TextBlock x:Name="logintext" HorizontalAlignment="Left" Margin="211,274,0,0" TextWrapping="Wrap" Text="UserName" VerticalAlignment="Top" FontSize="24" FontFamily="Segoe UI Black" FontWeight="Normal" Width="153" Foreground="#FFF4EDED"/>
+        <TextBlock x:Name="pwdtext" HorizontalAlignment="Left" Margin="211,346,0,0" TextWrapping="Wrap" Text="Password" VerticalAlignment="Top" FontSize="24" FontFamily="Segoe UI Black" FontWeight="Normal" Width="153" Foreground="#FFF4EDED"/>
+        <TextBox x:Name="username" HorizontalAlignment="Left" Margin="379,263,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="442" Height="53" FontFamily="Segoe UI" FontSize="36" RenderTransformOrigin="0.5,0.5" Text=""/>
+        <TextBox x:Name="password" HorizontalAlignment="Left" Margin="379,335,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="442" Height="53" FontFamily="Segoe UI" FontSize="36" RenderTransformOrigin="0.5,0.5" Text=""/>
+        <Button x:Name="signuptext"  Click="Signup_Button_Click" Content="SignUp" HorizontalAlignment="Left" Margin="450,407,0,0" VerticalAlignment="Top" FontSize="24" Width="172" FontFamily="Segoe UI Black" FontWeight="Bold" Height="52"/>
+        <Button x:Name="loginsubmit" Click="Login_Button_Click" Content="Login" HorizontalAlignment="Left" Margin="243,407,0,0" VerticalAlignment="Top" FontFamily="Segoe UI Black" FontSize="24" Width="172" Height="52"/>
+
+
+
+
+    </Grid>
+</Window>
