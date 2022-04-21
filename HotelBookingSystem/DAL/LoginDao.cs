@@ -10,5 +10,9 @@ namespace HotelBookingSystem.DAL
     {
         public String Username { get; set; }
         public String Password { get; set; }
+        public LoginDao(string username,string password) { 
+            Username = username;
+            Password = password;
+        }
     }
 }
